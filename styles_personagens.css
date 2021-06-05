@@ -40,6 +40,7 @@ li a:hover{
 body{
     background-image: url(img/background/background2.jpg);
     background-position: center;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -49,94 +50,23 @@ body{
 /* Colunas conteúdo */
 
 .container{
+    text-align: center;
     background-color: #FFFFFF;
     padding-top: 2%;
     margin-top: 1%;
 }
 
-/* margin no conteúdo */
-#introducao p{
-    margin-right: 3%;
-    margin-left: 3%;
-}
-#introducao h1{
-    margin-left: 3%;
-}
-#video{
-    float: right;
-    margin-left: 1%;
-    margin-right: 3%;
-}
-
-/* Jogos */
-#jogos{
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 20px;
-}
-#jogos img{
-    max-width: 170px;
-
-    margin-right: 1%;
-    margin-left: 1%;
-
-    margin-top: 1%;
-    margin-bottom: 1%;
-
-    border: 2px #000000 solid ;
-
-    filter: grayscale(100%);
-    transition: .5s;
-}
-#jogos img:hover{
-    border: 2px #A10E06 solid;
-    filter: grayscale(0%);
-}
-
-/* Perguntas e galeria */
-#final{
-    border-top: 1px solid #000000;
-    padding-bottom: 5%;
-}
-#final h1{
-    padding-top: 20px;
-    margin-left: 3%;
-}
-#final h2{
-    margin-left: 3%;
-    margin-right: 2%;
-}
-#final p{
-    margin-left: 3%;
-    margin-right: 2%;
-}
-
-/*Galeria de imagens */
-#galeria{
+.col{
     text-align: center;
-}
-#galeria img{
-    text-align: center;
-    max-width: 45%;
-    margin-left: 1%;
-    margin-top: 2%;
+    margin-top: 22%;
+    border: 1px solid #000000;
 
 }
-
-.personagens{
-    margin-left: 5%;
-    margin-bottom: 5%;
-}
-.personagens img{
-    float: right;
-    margin-right: 5%;
-}
-.personagens a{
+.col a{
     color: #A10E06;
 }
-
-.personagens p{
-
+.col p{
+    margin-top: 3%;
 }
 
 /* Fontes */
@@ -151,4 +81,6 @@ body h2{
     font-size: 18px;
     font-family: 'Suez One', serif;
 }
-
+blockquote p{
+    font: bolder;
+}
