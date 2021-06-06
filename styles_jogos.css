@@ -43,7 +43,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
 }
 
 /* Colunas conteúdo */
