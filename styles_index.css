@@ -73,15 +73,12 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     padding-bottom: 20px;
+    text-align: center;
 }
 #jogos img{
-    max-width: 170px;
+    max-width: 230px;
 
-    margin-right: 1%;
-    margin-left: 1%;
-
-    margin-top: 1%;
-    margin-bottom: 1%;
+margin: 3%;
 
     border: 2px #000000 solid ;
 

@@ -57,12 +57,16 @@ body{
     margin-top: 1%;
 }
 .personagens img{
-    max-width: 190px;
-    margin: 3px;
+    max-width: 256px;
+    margin: 2%;
     border: 2px solid #A10E06;
+
+    filter: grayscale(100%);
+    transition: .5s;
 }
 .personagens img:hover{
     border: 2px solid #000000;
+    filter: grayscale(0%);
 }
 
 /* Fontes */
