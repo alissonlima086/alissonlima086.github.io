@@ -129,3 +129,33 @@ body h2{
     font-size: 18px;
     font-family: 'Suez One', serif;
 }
+
+/*Footer*/
+.footer{
+    text-align: center;
+    background-color: #6d0702;
+    margin-top: 2%;
+    padding-bottom: 3%;
+}
+.studio img{
+    max-width: 80px;
+    margin-top: 2%;
+}
+
+#traco-footer{
+    margin-top: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 1px solid #000000;
+}
+.plataformas img{
+    max-width: 150px;
+    margin: 1%;
+}
+.sega p{
+    color: white;
+    font-size: 10px;
+}
+.sega div{
+    margin-top: 2%;
+}

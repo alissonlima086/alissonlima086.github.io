@@ -40,7 +40,6 @@ li a:hover{
 body{
     background-image: url(img/background/background2.jpg);
     background-position: center;
-    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -50,24 +49,57 @@ body{
 /* Colunas conteúdo */
 
 .container{
-    text-align: center;
     background-color: #FFFFFF;
     padding-top: 2%;
-    padding-bottom: 5%;
     margin-top: 1%;
 }
-.personagens img{
-    max-width: 256px;
+
+/* margin no conteúdo */
+#introducao p{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+#introducao h1{
+    margin-left: 3%;
+    text-align: center;
+}
+#video{
+    float: right;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+/* Jogos */
+#jogos{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#jogos img{
+    max-width: 230px;
     margin: 2%;
-    border: 2px solid #A10E06;
+
+    border: 2px #000000 solid ;
 
     filter: grayscale(100%);
     transition: .5s;
 }
-.personagens img:hover{
-    border: 2px solid #000000;
+#jogos img:hover{
+    border: 2px #A10E06 solid;
     filter: grayscale(0%);
 }
+
+.barra{
+    background-color: #A10E06;
+    height: 3%;
+    text-align: center;
+}
+.barra img{
+    margin: 2%;
+}
+
+
 
 /* Fontes */
 
@@ -80,9 +112,6 @@ body h2{
     font: bold;
     font-size: 18px;
     font-family: 'Suez One', serif;
-}
-blockquote p{
-    font: bolder;
 }
 
 /*Footer*/
