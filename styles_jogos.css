@@ -88,6 +88,7 @@ body{
 #galeria{
     padding-top: 2%;
     text-align: center;
+    padding-bottom: 2%;
 }
 #galeria img{
     text-align: center;
@@ -98,6 +99,22 @@ body{
 #final{
     border-top: 1px solid #000000;
     padding-bottom: 5%;
+}
+
+
+/*Comprar*/
+.buy{
+    text-align: center;
+    background-color: #A10E06;
+}
+.buy img{
+    max-width: 200px;
+    margin: 2%;
+}
+.buy p{
+    color: white;
+    margin-top: 1%;
+    font-family: 'Patua One', cursive;
 }
 
 /* Fontes */
