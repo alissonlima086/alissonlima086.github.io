@@ -1,0 +1,142 @@
+/* Header */
+
+.header{
+    background-color: #A10E06;
+    width: 100%;
+}
+#logo_header{
+    max-width: 15%;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+/* Barra de navegação */
+
+nav{
+    text-align: center;
+    background-color: #000000;
+    height: 30px;
+}
+nav li{
+    display: inline;
+    width: 80%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+li a{
+    color: white;
+    font-family: 'Patua One', cursive;
+}
+li a:hover{
+    color: #cc2017;
+}
+
+
+/* Background */
+
+body{
+    background-image: url(img/background/background2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* Colunas conteúdo */
+
+.container{
+    background-color: #FFFFFF;
+    padding-top: 2%;
+    margin-top: 1%;
+}
+
+/* margin no conteúdo */
+#informacao p{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+#informacao h1{
+    margin-left: 3%;
+}
+#informacao a{
+    margin-right: 3%;
+    margin-left: 3%;
+    color: #6d0702;
+}
+
+.musica{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.video{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.video iframe{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.barra{
+    background-color: #A10E06;
+    height: 3%;
+    text-align: center;
+}
+.barra img{
+    margin: 2%;
+}
+
+/* Fontes */
+
+body h1{
+    font: bold;
+    font-size: 25px;
+    font-family: 'Suez One', serif;
+}
+body h2{
+    font: bold;
+    font-size: 18px;
+    font-family: 'Suez One', serif;
+}
+
+/*Footer*/
+.footer{
+    text-align: center;
+    background-color: #6d0702;
+    margin-top: 2%;
+    padding-bottom: 3%;
+}
+.studio img{
+    max-width: 80px;
+    margin-top: 2%;
+}
+
+#traco-footer{
+    margin-top: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 1px solid #000000;
+}
+.plataformas img{
+    max-width: 150px;
+    margin: 1%;
+}
+.sega p{
+    color: white;
+    font-size: 10px;
+}
+.sega div{
+    margin-top: 2%;
+}
+.sega a{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 1%
+}
