@@ -5,7 +5,7 @@
     width: 100%;
 }
 #logo_header{
-    max-width: 130px;
+    max-width: 15%;max-width: 130px;
     text-align: left;
     margin-left: 40px;
     margin-top: 5px;
@@ -49,7 +49,7 @@ body{
 
 /* Colunas conteúdo */
 
-.container{
+.conteudo{
     text-align: center;
     background-color: #FFFFFF;
     padding-top: 2%;
@@ -69,6 +69,14 @@ body{
     filter: grayscale(0%);
 }
 
+.barra{
+    background-color: #A10E06;
+    height: 3%;
+    text-align: center;
+}
+.barra img{
+    margin: 2%;
+}
 /* Fontes */
 
 body h1{
@@ -114,4 +122,8 @@ blockquote p{
 .sega div{
     margin-top: 2%;
 }
-
+.sega a{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 1%
+}

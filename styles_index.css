@@ -5,7 +5,7 @@
     width: 100%;
 }
 #logo_header{
-    max-width: 130px;
+    max-width: 15%;
     text-align: left;
     margin-left: 40px;
     margin-top: 5px;
@@ -93,7 +93,7 @@ margin: 3%;
 /* Perguntas e galeria */
 #final{
     border-top: 1px solid #000000;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 #final h1{
     padding-top: 20px;
@@ -118,6 +118,15 @@ margin: 3%;
     margin-left: 1%;
     margin-top: 2%;
 
+}
+
+.barra{
+    background-color: #A10E06;
+    height: 3%;
+    text-align: center;
+}
+.barra img{
+    margin: 2%;
 }
 
 /* Fontes */
@@ -161,4 +170,9 @@ body h2{
 }
 .sega div{
     margin-top: 2%;
+}
+.sega a{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 1%
 }

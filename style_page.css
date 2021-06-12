@@ -5,7 +5,7 @@
     width: 100%;
 }
 #logo_header{
-    max-width: 130px;
+    max-width: 15%;
     text-align: left;
     margin-left: 40px;
     margin-top: 5px;
@@ -49,9 +49,11 @@ body{
 /* Colunas conteúdo */
 
 .container{
-    background-color: #FFFFFF;
     padding-top: 2%;
     margin-top: 1%;
+}
+#principal{
+    background-color: #FFFFFF;
 }
 
 #conteudo{
@@ -101,6 +103,7 @@ body{
     background-color: #A10E06;
     height: 3%;
     text-align: center;
+    width: 100%;
 }
 .barra img{
     margin: 2%;
@@ -147,4 +150,9 @@ body h2{
 }
 .sega div{
     margin-top: 2%;
+}
+.sega a{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 1%
 }
