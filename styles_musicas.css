@@ -65,6 +65,7 @@ body{
 #informacao a{
     margin-right: 3%;
     margin-left: 3%;
+    margin-bottom: 2%;
     color: #6d0702;
 }
 
@@ -83,7 +84,6 @@ body{
     text-align: center;
     margin: auto;
 }
-
 .barra{
     background-color: #A10E06;
     height: 3%;
