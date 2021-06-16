@@ -66,6 +66,12 @@ body{
     margin-left: 1%;
     margin-right: 3%;
 }
+#introducao a{
+    color: #460400;
+}
+#introducao a:hover{
+    color: brown;
+}
 
 /* Jogos */
 #jogos{
