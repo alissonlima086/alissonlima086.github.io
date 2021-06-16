@@ -164,3 +164,6 @@ body h2{
     font-size: 10px;
     margin-bottom: 1%
 }
+.sega img{
+    max-width: 40px;
+}
